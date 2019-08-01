@@ -2,9 +2,11 @@
 
 from fritzconnection import fritzconnection
 import argparse
+import matplotlib
+
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import seaborn as sns
-import pandas as pd
 
 from monitor import FritzMonitor
 from statistics import FritzStats
@@ -55,11 +57,12 @@ def main():
 
         sns.set(style="dark")
 
-        #pd.set_option('display.max_rows', len(downtime))
-        #print(df)
-        #pd.reset_option('display.max_rows')
+        # pd.set_option('display.max_rows', len(downtime))
+        # print(df)
+        # pd.reset_option('display.max_rows')
 
-        hour_df = downtime_df.groupby([downtime_df.index.year, downtime_df.index.month, downtime_df.index.day, downtime_df.index.hour]).count()
+        hour_df = downtime_df.groupby(
+            [downtime_df.index.year, downtime_df.index.month, downtime_df.index.day, downtime_df.index.hour]).count()
         hour_df.plot.bar()
         plt.ylabel("# failures")
         plt.xlabel("time")
@@ -74,8 +77,6 @@ def main():
         plt.title("Fritzbox 7530 failures (by day)")
         plt.legend()
         plt.savefig("docs/fig_daily.png", bbox_inches='tight')
-
-        #plt.show()
 
 
 if __name__ == '__main__':
