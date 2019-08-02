@@ -32,6 +32,7 @@ def _get_cli_arguments():
                              'Default: %s' % fritzconnection.FRITZ_TCP_PORT)
     parser.add_argument("--logdir", default="logs", help="folder where logs are stored")
     parser.add_argument("--title", default="Fritbox", help="pattern used for log filename")
+    parser.add_argument("--output", default="docs", help="folder to store graphs")
     parser.add_argument("action", type=str, choices=["log", "stats"], help="action to perform")
     args = parser.parse_args()
     return args
@@ -71,7 +72,7 @@ def main():
             plt.xlabel("time")
             plt.title("%s failures (by hour)" % args.title)
             plt.legend()
-            plt.savefig("docs/fig_hourly.png", bbox_inches='tight')
+            plt.savefig(args.output + "/fig_hourly.png", bbox_inches='tight')
 
             day_df = downtime_df.groupby([downtime_df.index.year, downtime_df.index.month, downtime_df.index.day]).count()
             day_df.plot.bar()
@@ -79,7 +80,7 @@ def main():
             plt.xlabel("time")
             plt.title("%s failures (by hour)" % args.title)
             plt.legend()
-            plt.savefig("docs/fig_daily.png", bbox_inches='tight')
+            plt.savefig(args.output + "/fig_daily.png", bbox_inches='tight')
 
 
 if __name__ == '__main__':
