@@ -6,10 +6,10 @@ build_graph() {  # plotFunction title
     git pull
 
     # generate the graphs
-    python3 stats $1
+    python3 $1 stats
 
     # commit to git
-    git add docs
+    git add docs/*
     git commit -m "Updated $2 graphs"
     git push
 }
