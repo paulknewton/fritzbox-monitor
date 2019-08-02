@@ -20,6 +20,7 @@ class FritzStats:
 
         # read each file in turn, scanning for the pattern
         timestamp_data = []
+        print("log_files", log_files)
         for file in log_files:
             with open(file) as f:
                 for line in f:

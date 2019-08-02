@@ -39,6 +39,7 @@ def _get_cli_arguments():
 
 def main():
     args = _get_cli_arguments()
+    print(args)
 
     if args.action == "log":
         fritz = FritzMonitor(
