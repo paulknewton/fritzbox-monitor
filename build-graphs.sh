@@ -1,5 +1,7 @@
 # Generate graphs and uploade to github.com
 #
+# usage: build-graphs.sh log_dir title
+#
 
 build_graph() {  # plotFunction title log_dir
     echo Building graphs for: $2
@@ -18,4 +20,4 @@ build_graph() {  # plotFunction title log_dir
 git pull
 
 # build graphs
-build_graph fritz.py "Fritzbox 7530" logs.7530
+build_graph fritz.py "$1" "$2"
