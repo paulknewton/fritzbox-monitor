@@ -1,6 +1,7 @@
 import glob
 import re
 import pandas as pd
+from datetime import datetime
 
 
 class FritzStats:
@@ -26,15 +27,17 @@ class FritzStats:
                 for line in f:
                     try:
                         ts_str = regex.search(line).group(1)  # timestamp when the event occurred
-                        timestamp_data.append(pd.to_datetime(ts_str, infer_datetime_format=True))
-                    except AttributeError:
+                        timestamp = datetime.strptime(ts_str, "%d.%m.%y %H:%M:%S")  # format "30.07.19 23:59:12"
+                        timestamp_data.append(timestamp)
+                    except AttributeError as e:
                         pass
+
         df = pd.DataFrame(timestamp_data, columns=["timestamp"])
         if df.empty:
             return df
 
         df["event"] = 1
         df = df.set_index("timestamp")
-        df.sort_index(inplace=True)
+        #df.sort_index(inplace=True)
 
         return df

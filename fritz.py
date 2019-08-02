@@ -55,7 +55,7 @@ def main():
     elif args.action == "stats":
         fritz = FritzStats(args.logdir, args.title)
         downtime_df = fritz.get_downtime()
-
+        #print(downtime_df.tail(1000))
         if not (downtime_df is None or downtime_df.empty):
 
             sns.set(style="dark")
