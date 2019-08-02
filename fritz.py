@@ -31,7 +31,7 @@ def _get_cli_arguments():
                         help='port of the FritzBox to connect to. '
                              'Default: %s' % fritzconnection.FRITZ_TCP_PORT)
     parser.add_argument("--logdir", default="logs", help="folder where logs are stored")
-    parser.add_argument("--pattern", default="log-fritz7530", help="pattern used for log filename")
+    parser.add_argument("--title", default="Fritbox", help="pattern used for log filename")
     parser.add_argument("action", type=str, choices=["log", "stats"], help="action to perform")
     args = parser.parse_args()
     return args
@@ -52,31 +52,33 @@ def main():
         print(log)
 
     elif args.action == "stats":
-        fritz = FritzStats(args.logdir, args.pattern)
+        fritz = FritzStats(args.logdir, args.title)
         downtime_df = fritz.get_downtime()
 
-        sns.set(style="dark")
+        if not (downtime_df is None or downtime_df.empty):
 
-        # pd.set_option('display.max_rows', len(downtime))
-        # print(df)
-        # pd.reset_option('display.max_rows')
+            sns.set(style="dark")
 
-        hour_df = downtime_df.groupby(
-            [downtime_df.index.year, downtime_df.index.month, downtime_df.index.day, downtime_df.index.hour]).count()
-        hour_df.plot.bar()
-        plt.ylabel("# failures")
-        plt.xlabel("time")
-        plt.title("Fritzbox 7530 failures (by hour)")
-        plt.legend()
-        plt.savefig("docs/fig_hourly.png", bbox_inches='tight')
+            # pd.set_option('display.max_rows', len(downtime))
+            # print(df)
+            # pd.reset_option('display.max_rows')
 
-        day_df = downtime_df.groupby([downtime_df.index.year, downtime_df.index.month, downtime_df.index.day]).count()
-        day_df.plot.bar()
-        plt.ylabel("# failures")
-        plt.xlabel("time")
-        plt.title("Fritzbox 7530 failures (by day)")
-        plt.legend()
-        plt.savefig("docs/fig_daily.png", bbox_inches='tight')
+            hour_df = downtime_df.groupby(
+                [downtime_df.index.year, downtime_df.index.month, downtime_df.index.day, downtime_df.index.hour]).count()
+            hour_df.plot.bar()
+            plt.ylabel("# failures")
+            plt.xlabel("time")
+            plt.title("%s failures (by hour)" % args.title)
+            plt.legend()
+            plt.savefig("docs/fig_hourly.png", bbox_inches='tight')
+
+            day_df = downtime_df.groupby([downtime_df.index.year, downtime_df.index.month, downtime_df.index.day]).count()
+            day_df.plot.bar()
+            plt.ylabel("# failures")
+            plt.xlabel("time")
+            plt.title("%s failures (by hour)" % args.title)
+            plt.legend()
+            plt.savefig("docs/fig_daily.png", bbox_inches='tight')
 
 
 if __name__ == '__main__':
