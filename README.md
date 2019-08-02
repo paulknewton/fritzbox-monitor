@@ -1,5 +1,5 @@
 # fritz-monitor
-Monitor internet health of a fritz box and plot uptime graphs
+Monitor internet health of a fritz box and plot graphs
 
 ![Daily](docs/fig_daily.png)
 
