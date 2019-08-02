@@ -5,11 +5,12 @@ import pandas as pd
 
 class FritzStats:
 
-    def __init__(self, log_dir, pattern):
-        self.filter = log_dir + "/" + pattern + "*"
+    def __init__(self, log_dir, title):
+        self.log_dir = log_dir + "/*"
+        self.title = title
 
     def get_downtime(self):
-        return self._read_logs(self.filter, "Timeout during PPP negotiation")
+        return self._read_logs(self.log_dir, "Timeout during PPP negotiation")
 
     def _read_logs(self, filter, pattern):
 
@@ -28,5 +29,11 @@ class FritzStats:
                     except AttributeError:
                         pass
         df = pd.DataFrame(timestamp_data, columns=["timestamp"])
+        if df.empty:
+            return df
+
         df["event"] = 1
-        return df.set_index("timestamp").sort_values(axis=0, inplace=True)
+        df = df.set_index("timestamp")
+        df.sort_index(inplace=True)
+
+        return df
