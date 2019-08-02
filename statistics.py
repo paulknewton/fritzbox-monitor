@@ -30,6 +30,4 @@ class FritzStats:
                         pass
         df = pd.DataFrame(timestamp_data, columns=["timestamp"])
         df["event"] = 1
-        df = df.set_index("timestamp")
-        #.sort_values(axis=0)
-        return df
+        return df.set_index("timestamp").sort_values(axis=0, inplace=True)
