@@ -5,7 +5,6 @@
 
 build_graph() {  # plotFunction title log_dir
     echo Building graphs for: $2
-    git pull
 
     # generate the graphs
     python3 $1 stats --title "$2" --logdir "$3"
