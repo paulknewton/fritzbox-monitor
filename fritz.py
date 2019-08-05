@@ -78,7 +78,7 @@ def main():
             plt.xlabel("time")
             plt.title("%s failures (by hour)" % args.title)
             plt.legend()
-            plt.savefig(args.output + "/" + args.prefix + "_fig_hourly.png", bbox_inches='tight')
+            plt.savefig(args.output + "/" + args.prefix + "_hourly.png", bbox_inches='tight')
 
             day_df = downtime_df.groupby([downtime_df.index.year, downtime_df.index.month, downtime_df.index.day]).count()
             day_df.plot.bar()
@@ -86,7 +86,7 @@ def main():
             plt.xlabel("time")
             plt.title("%s failures (by hour)" % args.title)
             plt.legend()
-            plt.savefig(args.output + "/" + args.prefix + "_fig_daily.png", bbox_inches='tight')
+            plt.savefig(args.output + "/" + args.prefix + "_daily.png", bbox_inches='tight')
 
 
 if __name__ == '__main__':
