@@ -59,13 +59,13 @@ The tool supports 2 operating modes:
 
 e.g.
 ```
-python fritz.py -p somepass > logs/fritz.log
+python fritz.py log -p somepass > logs/fritz.log
 ```
 
 will dump out the last system log from the router to the `fritz.log` file (in the `logs` folder).
 
 ```
-python fritz.py -title "Errors in my router" --logdir logs --output docs
+python fritz.py stats -title "Errors in my router" --logdir logs --output docs
 ```
 
 will create some graphs from any log files found in the `logs` folder, and store the graphs in the `docs` folder.
