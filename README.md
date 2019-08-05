@@ -9,7 +9,7 @@ Monitor the internet health of a Fritz!Box router and plot graphs of errors
 
 The tools use the [fritzconnection](https://github.com/kbr/fritzconnection) libraries.
 System logs are downloaded from the Fritz!Box on a periodic basis and stored on a local filesystem.
-When the program is executed in 'statistics' mode, it reads all of the logs, and searches for key strings that indicate errors. These errors are used to populate a pandas Dataframe which are then convered to pretty graphs via matplotlib.
+When the program is executed in 'statistics' mode, it reads all of the logs, and searches for key strings that indicate errors. These errors are used to populate a pandas Dataframe which are then converted to pretty graphs via matplotlib.
 
 The tools support different command-line arguments for accessing the router (user, password etc) or when storing the graphs (log directory, output folder, graphs titles etc).
 
