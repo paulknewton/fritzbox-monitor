@@ -1,9 +1,9 @@
 # fritz-monitor
-Monitor internet health of a Fritz!Box router and plot graphs of errors
+Monitor the internet health of a Fritz!Box router and plot graphs of errors
 
-![Daily](docs/fritz7590_daily.png)
+![Daily](docs/fritz7530_daily.png)
 
-![Hourly](docs/fritz7590_hourly.png)
+![Hourly](docs/fritz7530_hourly.png)
 
 ## How does it work?
 
