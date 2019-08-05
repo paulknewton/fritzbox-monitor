@@ -14,6 +14,9 @@ from statistics import FritzStats
 
 def _get_cli_arguments():
     parser = argparse.ArgumentParser(description='FritzBox Monitor')
+    parser.add_argument("action", type=str, choices=["log", "stats"], help="action to perform")
+
+    # used by action: log
     parser.add_argument('-i', '--ip-address',
                         nargs='?', default=None, const=None,
                         dest='address',
@@ -30,10 +33,13 @@ def _get_cli_arguments():
                         dest='port',
                         help='port of the FritzBox to connect to. '
                              'Default: %s' % fritzconnection.FRITZ_TCP_PORT)
+    
+    # used by action: stats
     parser.add_argument("--logdir", default="logs", help="folder where logs are stored")
-    parser.add_argument("--title", default="Fritbox", help="pattern used for log filename")
+    parser.add_argument("--title", default="Fritbox", help="title used on graphs")
     parser.add_argument("--output", default="docs", help="folder to store graphs")
-    parser.add_argument("action", type=str, choices=["log", "stats"], help="action to perform")
+    parser.add_argument("--prefix", default="fig_fritz", help="prefix added to graph filenames")
+    
     args = parser.parse_args()
     return args
 
@@ -72,7 +78,7 @@ def main():
             plt.xlabel("time")
             plt.title("%s failures (by hour)" % args.title)
             plt.legend()
-            plt.savefig(args.output + "/fig_hourly.png", bbox_inches='tight')
+            plt.savefig(args.output + "/" + args.prefix + "_fig_hourly.png", bbox_inches='tight')
 
             day_df = downtime_df.groupby([downtime_df.index.year, downtime_df.index.month, downtime_df.index.day]).count()
             day_df.plot.bar()
@@ -80,7 +86,7 @@ def main():
             plt.xlabel("time")
             plt.title("%s failures (by hour)" % args.title)
             plt.legend()
-            plt.savefig(args.output + "/fig_daily.png", bbox_inches='tight')
+            plt.savefig(args.output + "/" + args.prefix + "_fig_daily.png", bbox_inches='tight')
 
 
 if __name__ == '__main__':
