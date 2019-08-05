@@ -1,14 +1,32 @@
 # fritz-monitor
-Monitor internet health of a fritz box and plot graphs
+Monitor internet health of a Fritz!Box router and plot graphs of errors
 
-![Daily](docs/fig_daily.png)
+![Daily](docs/fritz7590_daily.png)
 
-![Hourly](docs/fig_hourly.png)
+![Hourly](docs/fritz7590_hourly.png)
+
+## How does it work?
+
+The tools use the [fritzconnection](https://github.com/kbr/fritzconnection) libraries.
+System logs are downloaded from the Fritz!Box on a periodic basis and stored on a local filesystem.
+When the program is executed in 'statistics' mode, it reads all of the logs, and searches for key strings that indicate errors. These errors are used to populate a pandas Dataframe which are then convered to pretty graphs via matplotlib.
+
+The tools support different command-line arguments for accessing the router (user, password etc) or when storing the graphs (log directory, output folder, graphs titles etc).
 
 ## Installation
 
-## Usage
+All dependencies are listed in `requirements.txt`. Install everything via `pip`:
 ```
+pip install -r requirements.txt
+```
+
+## Usage
+
+Just run the `fritz.py` program. The `-h` flag lists all the possible arguments:
+
+```
+python fritz.py -h
+
 usage: fritz.py [-h] [-i [ADDRESS]] [-u [USER]] [-p [PASSWORD]]
                 [--port [PORT]] [--logdir LOGDIR] [--title TITLE]
                 [--output OUTPUT] [--prefix PREFIX]
@@ -34,3 +52,20 @@ optional arguments:
   --output OUTPUT       folder to store graphs
   --prefix PREFIX       prefix added to graph filenames
 ```
+
+The tool supports 2 operating modes:
+* log - extract a log from the router
+* stats - build graphs from the log files
+
+e.g.
+```
+python fritz.py -p somepass > logs/fritz.log
+```
+
+will dump out the last system log from the router to the `fritz.log` file (in the `logs` folder).
+
+```
+python fritz.py -title "Errors in my router" --logdir logs --output docs
+```
+
+will create some graphs from any log files found in the `logs` folder, and store the graphs in the `docs` folder.
