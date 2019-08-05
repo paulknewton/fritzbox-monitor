@@ -32,7 +32,7 @@ class FritzStats:
                     except AttributeError as e:
                         pass
 
-        df = pd.DataFrame(timestamp_data, columns=["timestamp"])
+        df = pd.DataFrame(timestamp_data, columns=["timestamp"]).drop_duplicates()
         if df.empty:
             return df
 

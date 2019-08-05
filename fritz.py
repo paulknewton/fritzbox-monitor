@@ -84,7 +84,7 @@ def main():
             day_df.plot.bar()
             plt.ylabel("# failures")
             plt.xlabel("time")
-            plt.title("%s failures (by hour)" % args.title)
+            plt.title("%s failures (by daily)" % args.title)
             plt.legend()
             plt.savefig(args.output + "/" + args.prefix + "_daily.png", bbox_inches='tight')
 
