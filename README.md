@@ -1,3 +1,5 @@
+[![DeepSource](https://static.deepsource.io/deepsource-badge-light.svg)](https://deepsource.io/gh/paulknewton/fritz-monitor/?ref=repository-badge)
+
 # fritz-monitor
 Monitor the internet health of a Fritz!Box router and plot graphs of errors
 
