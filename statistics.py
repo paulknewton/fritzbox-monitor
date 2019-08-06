@@ -29,7 +29,7 @@ class FritzStats:
                         ts_str = regex.search(line).group(1)  # timestamp when the event occurred
                         timestamp = datetime.strptime(ts_str, "%d.%m.%y %H:%M:%S")  # format "30.07.19 23:59:12"
                         timestamp_data.append(timestamp)
-                    except AttributeError as e:
+                    except AttributeError:
                         pass
 
         df = pd.DataFrame(timestamp_data, columns=["timestamp"]).drop_duplicates()
