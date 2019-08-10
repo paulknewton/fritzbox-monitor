@@ -11,11 +11,11 @@ class FritzStats:
         self.title = title
 
     def get_downtime(self):
-        return self._read_logs(self.log_dir, "Timeout during PPP negotiation")
+        return self._read_logs("Timeout during PPP negotiation")
 
-    def _read_logs(self, filter, pattern):
+    def _read_logs(self, pattern):
 
-        log_files = glob.glob(filter)
+        log_files = glob.glob(self.log_dir)
 
         regex = re.compile("^(.*) %s.$" % pattern)
 
@@ -38,6 +38,6 @@ class FritzStats:
 
         df["event"] = 1
         df = df.set_index("timestamp")
-        #df.sort_index(inplace=True)
+        # df.sort_index(inplace=True)
 
         return df
