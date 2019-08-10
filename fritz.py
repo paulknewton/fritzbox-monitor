@@ -33,18 +33,21 @@ def _get_cli_arguments():
                         dest='port',
                         help='port of the FritzBox to connect to. '
                              'Default: %s' % fritzconnection.FRITZ_TCP_PORT)
-    
+
     # used by action: stats
     parser.add_argument("--logdir", default="logs", help="folder where logs are stored")
     parser.add_argument("--title", default="Fritbox", help="title used on graphs")
     parser.add_argument("--output", default="docs", help="folder to store graphs")
     parser.add_argument("--prefix", default="fig_fritz", help="prefix added to graph filenames")
-    
+
     args = parser.parse_args()
     return args
 
 
 def main():
+    """
+    Run the tool to either extract a new system log, or build graphs from existing logs.
+    """
     args = _get_cli_arguments()
     print(args)
 
