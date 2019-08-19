@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Just run the `fritz.py` program. The `-h` flag lists all the possible arguments:
 
 ```
-python fritz.py -h
+./fritz.py -h
 
 usage: fritz.py [-h] [-i [ADDRESS]] [-u [USER]] [-p [PASSWORD]]
                 [--port [PORT]] [--logdir LOGDIR] [--title TITLE]
@@ -61,13 +61,13 @@ The tool supports 2 operating modes:
 
 e.g.
 ```
-python fritz.py log -p somepass > logs/fritz.log
+./fritz.py log -p somepass > logs/fritz.log
 ```
 
 will dump out the last system log from the router to the `fritz.log` file (in the `logs` folder).
 
 ```
-python fritz.py stats -title "Errors in my router" --logdir logs --output docs
+./fritz.py stats -title "Errors in my router" --logdir logs --output docs
 ```
 
 will create some graphs from any log files found in the `logs` folder, and store the graphs in the `docs` folder.
