@@ -65,7 +65,6 @@ def main():
     elif args.action == "stats":
         fritz = FritzStats(args.logdir, args.title)
         downtime_df = fritz.get_downtime()
-        #print(downtime_df.tail(1000))
         if not (downtime_df is None or downtime_df.empty):
 
             sns.set(style="dark")
@@ -76,6 +75,7 @@ def main():
 
             hour_df = downtime_df.groupby(
                 [downtime_df.index.year, downtime_df.index.month, downtime_df.index.day, downtime_df.index.hour]).count()
+            hour_df  = hour_df.tail(50)    # truncate
             hour_df.plot.bar()
             plt.ylabel("# failures")
             plt.xlabel("time")
