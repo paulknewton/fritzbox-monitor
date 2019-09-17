@@ -11,6 +11,9 @@ import seaborn as sns
 from monitor import FritzMonitor
 from statistics import FritzStats
 
+# max number of bars to show on a graph (avoids overcrowding)
+max_graph_size: int = 50
+
 
 def _get_cli_arguments():
     parser = argparse.ArgumentParser(description='FritzBox Monitor')
@@ -66,7 +69,6 @@ def main():
         fritz = FritzStats(args.logdir, args.title)
         downtime_df = fritz.get_downtime()
         if not (downtime_df is None or downtime_df.empty):
-
             sns.set(style="dark")
 
             # pd.set_option('display.max_rows', len(downtime))
@@ -74,8 +76,9 @@ def main():
             # pd.reset_option('display.max_rows')
 
             hour_df = downtime_df.groupby(
-                [downtime_df.index.year, downtime_df.index.month, downtime_df.index.day, downtime_df.index.hour]).count()
-            hour_df  = hour_df.tail(50)    # truncate
+                [downtime_df.index.year, downtime_df.index.month, downtime_df.index.day,
+                 downtime_df.index.hour]).count()
+            hour_df = hour_df.tail(max_graph_size)  # truncate
             hour_df.plot.bar()
             plt.ylabel("# failures")
             plt.xlabel("time")
@@ -83,7 +86,9 @@ def main():
             plt.legend()
             plt.savefig(args.output + "/" + args.prefix + "_hourly.png", bbox_inches='tight')
 
-            day_df = downtime_df.groupby([downtime_df.index.year, downtime_df.index.month, downtime_df.index.day]).count()
+            day_df = downtime_df.groupby(
+                [downtime_df.index.year, downtime_df.index.month, downtime_df.index.day]).count()
+            day_df = day_df.tail(max_graph_size)  # truncate
             day_df.plot.bar()
             plt.ylabel("# failures")
             plt.xlabel("time")
