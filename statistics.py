@@ -46,6 +46,6 @@ class FritzStats:
 
         df["event"] = 1
         df = df.set_index("timestamp")
-        # df.sort_index(inplace=True)
+        df.sort_index(inplace=True)
 
         return df

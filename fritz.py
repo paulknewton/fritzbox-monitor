@@ -74,6 +74,7 @@ def main():
     elif args.action == "stats":
         fritz = FritzStats(args.logdir, args.title)
         downtime_df = fritz.get_downtime()
+        # downtime_df.to_pickle("df.pkl")
         if not (downtime_df is None or downtime_df.empty):
             sns.set(style="dark")
 
@@ -86,7 +87,7 @@ def main():
                  downtime_df.index.hour]).count()
             hour_df = hour_df.tail(max_graph_size)  # truncate
 
-            hour_df.plot.bar(figsize=(10,4))
+            hour_df.plot.bar(figsize=(10, 4))
             plt.ylabel("# failures")
             plt.xlabel("time")
             plt.title("%s failures (by hour)" % args.title)
@@ -97,7 +98,7 @@ def main():
                 [downtime_df.index.year, downtime_df.index.month, downtime_df.index.day]).count()
             day_df = day_df.tail(max_graph_size)  # truncate
 
-            day_df.plot.bar(figsize=(10,4))
+            day_df.plot.bar(figsize=(10, 4))
             plt.ylabel("# failures")
             plt.xlabel("time")
             plt.title("%s failures (by day)" % args.title)
