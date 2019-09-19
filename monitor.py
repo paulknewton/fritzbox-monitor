@@ -1,7 +1,7 @@
 from fritzconnection import fritzconnection
 
 
-class FritzMonitor():
+class FritzMonitor:
     """
     Accesses system logs for a FRITZ!Box
     """

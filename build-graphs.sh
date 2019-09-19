@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Generate graphs and uploade to github.com
 #
 #
