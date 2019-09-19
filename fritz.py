@@ -39,7 +39,7 @@ def _get_cli_arguments():
 
     # used by action: stats
     parser.add_argument("--logdir", default="logs", help="folder where logs are stored")
-    parser.add_argument("--title", default="Fritbox", help="title used on graphs")
+    parser.add_argument("--title", default="FRITZ!Box", help="title used on graphs")
     parser.add_argument("--output", default="docs", help="folder to store graphs")
     parser.add_argument("--prefix", default="fig_fritz", help="prefix added to graph filenames")
 

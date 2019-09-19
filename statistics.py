@@ -1,16 +1,24 @@
 import glob
 import re
-import pandas as pd
 from datetime import datetime
+
+import pandas as pd
 
 
 class FritzStats:
+    """
+    Manages statistics for a FRITZ!Box router.
+    """
 
     def __init__(self, log_dir, title):
         self.log_dir = log_dir + "/*"
         self.title = title
 
     def get_downtime(self):
+        """
+        Get the times when the router did not have an internet connection.
+        :return: dataframe of the form timestamp, event (event is always 1)
+        """
         return self._read_logs("Timeout during PPP negotiation")
 
     def _read_logs(self, pattern):
