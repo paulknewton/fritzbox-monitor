@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
-from fritzconnection import fritzconnection
 import argparse
+
 import matplotlib
+from fritzconnection import fritzconnection
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -50,6 +51,11 @@ def _get_cli_arguments():
 def main():
     """
     Run the tool to either extract a new system log, or build graphs from existing logs.
+
+    usage: fritz.py [-h] [-i [ADDRESS]] [-u [USER]] [-p [PASSWORD]]
+                [--port [PORT]] [--logdir LOGDIR] [--title TITLE]
+                [--output OUTPUT] [--prefix PREFIX]
+                {log,stats}
     """
     args = _get_cli_arguments()
     print(args)
