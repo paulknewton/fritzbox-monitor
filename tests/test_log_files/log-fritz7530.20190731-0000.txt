@@ -1,0 +1,356 @@
+30.07.19 23:59:12 Timeout during PPP negotiation.
+30.07.19 23:59:12 Internet connection cleared.
+30.07.19 23:58:29 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:58:18 PPPoE error: Timeout.  [2 messages since 30.07.19 23:57:26]
+30.07.19 23:56:35 Timeout during PPP negotiation.
+30.07.19 23:56:35 Internet connection cleared.
+30.07.19 23:56:35 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 23:54:48 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 23:54:48 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 23:54:42 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:54:14 PPPoE error: Timeout. 
+30.07.19 23:53:32 Internet connection cleared.
+30.07.19 23:53:32 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 23:52:45 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 23:52:45 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 23:52:40 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:52:30 PPPoE error: Timeout. 
+30.07.19 23:51:48 Internet connection cleared.
+30.07.19 23:51:48 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 23:51:04 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 23:51:04 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 23:50:59 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:50:40 Timeout during PPP negotiation.
+30.07.19 23:50:40 Internet connection cleared.
+30.07.19 23:50:18 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 23:49:58 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:49:49 Internet connection cleared.
+30.07.19 23:49:49 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 23:48:34 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 23:48:34 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 23:48:24 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:48:13 Timeout during PPP negotiation.
+30.07.19 23:48:13 Internet connection cleared.
+30.07.19 23:48:13 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 23:47:26 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 23:47:26 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 23:47:09 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:46:58 Timeout during PPP negotiation.
+30.07.19 23:46:58 Internet connection cleared.
+30.07.19 23:46:58 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 23:46:14 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 23:46:14 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 23:45:43 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:45:33 Timeout during PPP negotiation.
+30.07.19 23:45:33 Internet connection cleared.
+30.07.19 23:45:12 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 23:44:53 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:44:42 Timeout during PPP negotiation.
+30.07.19 23:44:42 Internet connection cleared.
+30.07.19 23:44:42 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 23:29:52 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 23:29:52 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 23:29:47 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:29:37 PPPoE error: Timeout.  [2 messages since 30.07.19 23:28:44]
+30.07.19 23:27:52 Timeout during PPP negotiation.
+30.07.19 23:27:52 Internet connection cleared.
+30.07.19 23:27:52 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 23:27:02 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 23:27:02 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 23:26:57 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:26:47 PPPoE error: Timeout.  [2 messages since 30.07.19 23:25:55]
+30.07.19 23:25:03 Timeout during PPP negotiation.
+30.07.19 23:25:03 Internet connection cleared.
+30.07.19 23:25:03 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 23:24:15 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 23:24:15 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 23:24:10 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:24:00 PPPoE error: Timeout.  [2 messages since 30.07.19 23:23:08]
+30.07.19 23:22:16 Timeout during PPP negotiation.
+30.07.19 23:22:16 Internet connection cleared.
+30.07.19 23:22:16 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 23:21:31 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 23:21:31 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 23:21:26 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:21:16 PPPoE error: Timeout.  [2 messages since 30.07.19 23:20:24]
+30.07.19 23:19:33 Timeout during PPP negotiation.
+30.07.19 23:19:33 Internet connection cleared.
+30.07.19 23:19:12 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 23:18:52 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:18:42 PPPoE error: Timeout.  [2 messages since 30.07.19 23:17:50]
+30.07.19 23:16:58 Timeout during PPP negotiation.
+30.07.19 23:16:58 Internet connection cleared.
+30.07.19 23:16:37 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 23:16:18 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:16:07 PPPoE error: Timeout.  [2 messages since 30.07.19 23:15:15]
+30.07.19 23:14:23 Timeout during PPP negotiation.
+30.07.19 23:14:23 Internet connection cleared.
+30.07.19 23:14:23 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 23:13:33 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 23:13:33 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 23:13:28 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:13:18 PPPoE error: Timeout.  [2 messages since 30.07.19 23:12:26]
+30.07.19 23:11:44 Internet connection cleared.
+30.07.19 23:11:44 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 23:11:01 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 23:11:01 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 23:10:56 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:10:45 PPPoE error: Timeout.  [2 messages since 30.07.19 23:09:53]
+30.07.19 23:09:01 Timeout during PPP negotiation.
+30.07.19 23:09:01 Internet connection cleared.
+30.07.19 23:09:01 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 23:08:02 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 23:08:02 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 23:07:57 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:07:40 PPPoE error: Timeout. 
+30.07.19 23:06:48 Timeout during PPP negotiation.
+30.07.19 23:06:48 Internet connection cleared.
+30.07.19 23:06:48 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 23:05:59 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 23:05:59 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 23:05:54 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:05:19 Timeout during PPP negotiation.
+30.07.19 23:05:19 Internet connection cleared.
+30.07.19 23:05:19 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 23:04:35 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 23:04:35 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 23:04:04 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:03:45 Timeout during PPP negotiation.
+30.07.19 23:03:45 Internet connection cleared.
+30.07.19 23:03:25 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 23:03:05 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:02:56 Timeout during PPP negotiation.
+30.07.19 23:02:56 Internet connection cleared.
+30.07.19 23:02:34 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 23:02:15 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:02:05 Timeout during PPP negotiation.
+30.07.19 23:02:05 Internet connection cleared.
+30.07.19 23:01:43 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 23:01:23 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:01:13 Timeout during PPP negotiation.
+30.07.19 23:01:13 Internet connection cleared.
+30.07.19 23:00:51 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 23:00:32 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 23:00:22 Timeout during PPP negotiation.
+30.07.19 23:00:22 Internet connection cleared.
+30.07.19 23:00:22 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 22:59:43 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 22:59:43 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 22:59:38 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:59:32 Internet connection cleared.
+30.07.19 22:59:32 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 22:53:35 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 22:53:35 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 22:53:30 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:53:11 Timeout during PPP negotiation.
+30.07.19 22:53:11 Internet connection cleared.
+30.07.19 22:52:49 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 22:52:31 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:52:23 Internet connection cleared.
+30.07.19 22:52:23 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 22:50:04 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 22:50:04 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 22:49:59 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:49:49 Timeout during PPP negotiation.
+30.07.19 22:49:49 Internet connection cleared.
+30.07.19 22:49:00 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 22:48:40 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:48:29 Timeout during PPP negotiation.
+30.07.19 22:48:29 Internet connection cleared.
+30.07.19 22:48:04 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 22:47:44 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:47:34 Timeout during PPP negotiation.
+30.07.19 22:47:34 Internet connection cleared.
+30.07.19 22:47:14 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 22:46:54 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:46:44 Timeout during PPP negotiation.
+30.07.19 22:46:44 Internet connection cleared.
+30.07.19 22:46:44 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 22:26:59 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 22:26:59 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 22:26:54 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:26:45 Timeout during PPP negotiation.
+30.07.19 22:26:45 Internet connection cleared.
+30.07.19 22:26:24 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 22:26:03 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:25:53 Timeout during PPP negotiation.
+30.07.19 22:25:53 Internet connection cleared.
+30.07.19 22:25:53 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 22:16:04 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 22:16:04 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 22:15:59 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:15:49 PPPoE error: Timeout.  [2 messages since 30.07.19 22:14:57]
+30.07.19 22:14:15 Internet connection cleared.
+30.07.19 22:14:15 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 22:12:44 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 22:12:44 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 22:12:39 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:12:28 PPPoE error: Timeout.  [2 messages since 30.07.19 22:11:36]
+30.07.19 22:10:44 Timeout during PPP negotiation.
+30.07.19 22:10:44 Internet connection cleared.
+30.07.19 22:10:02 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:09:52 PPPoE error: Timeout.  [2 messages since 30.07.19 22:09:00]
+30.07.19 22:08:08 Timeout during PPP negotiation.
+30.07.19 22:08:08 Internet connection cleared.
+30.07.19 22:08:08 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 22:06:53 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 22:06:53 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 22:06:48 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:06:20 PPPoE error: Timeout. 
+30.07.19 22:05:39 Internet connection cleared.
+30.07.19 22:05:39 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 22:04:08 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 22:04:08 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 22:04:03 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:03:29 Timeout during PPP negotiation.
+30.07.19 22:03:29 Internet connection cleared.
+30.07.19 22:03:29 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 22:02:52 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 22:02:52 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 22:02:47 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:02:28 Timeout during PPP negotiation.
+30.07.19 22:02:28 Internet connection cleared.
+30.07.19 22:02:07 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 22:01:47 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:01:37 Timeout during PPP negotiation.
+30.07.19 22:01:37 Internet connection cleared.
+30.07.19 22:01:37 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 22:00:54 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 22:00:54 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 22:00:17 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 22:00:06 Timeout during PPP negotiation.
+30.07.19 22:00:06 Internet connection cleared.
+30.07.19 21:59:41 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 21:59:22 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 21:59:12 Timeout during PPP negotiation.
+30.07.19 21:59:12 Internet connection cleared.
+30.07.19 21:58:49 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 21:58:30 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 21:58:21 Timeout during PPP negotiation.
+30.07.19 21:58:21 Internet connection cleared.
+30.07.19 21:57:59 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 21:57:39 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 21:57:29 Timeout during PPP negotiation.
+30.07.19 21:57:29 Internet connection cleared.
+30.07.19 21:57:29 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 21:51:41 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 21:51:41 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 21:51:36 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 21:51:26 PPPoE error: Timeout.  [2 messages since 30.07.19 21:50:34]
+30.07.19 21:49:42 Timeout during PPP negotiation.
+30.07.19 21:49:42 Internet connection cleared.
+30.07.19 21:49:42 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 21:48:45 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 21:48:45 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 21:48:40 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 21:48:30 PPPoE error: Timeout.  [2 messages since 30.07.19 21:47:38]
+30.07.19 21:46:47 Timeout during PPP negotiation.
+30.07.19 21:46:47 Internet connection cleared.
+30.07.19 21:46:26 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 21:46:06 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 21:45:50 PPPoE error: Timeout. 
+30.07.19 21:44:59 Timeout during PPP negotiation.
+30.07.19 21:44:59 Internet connection cleared.
+30.07.19 21:44:38 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 21:44:18 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 21:43:45 Timeout during PPP negotiation.
+30.07.19 21:43:45 Internet connection cleared.
+30.07.19 21:43:23 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 21:43:04 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 21:42:45 Timeout during PPP negotiation.
+30.07.19 21:42:45 Internet connection cleared.
+30.07.19 21:42:25 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 21:42:05 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 21:41:55 Timeout during PPP negotiation.
+30.07.19 21:41:55 Internet connection cleared.
+30.07.19 21:41:33 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 21:41:14 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 21:41:05 Timeout during PPP negotiation.
+30.07.19 21:41:05 Internet connection cleared.
+30.07.19 21:40:44 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 21:40:24 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 21:40:15 Timeout during PPP negotiation.
+30.07.19 21:40:15 Internet connection cleared.
+30.07.19 21:39:53 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 21:39:34 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 21:39:29 Internet connection cleared.
+30.07.19 21:39:29 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 21:38:58 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 21:38:58 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 21:38:45 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 21:38:34 Timeout during PPP negotiation.
+30.07.19 21:38:34 Internet connection cleared.
+30.07.19 21:38:34 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 09:12:24 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 09:12:24 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 09:12:19 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 09:12:09 Timeout during PPP negotiation.
+30.07.19 09:12:09 Internet connection cleared.
+30.07.19 09:12:09 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 09:07:29 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 09:07:29 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 09:07:24 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 09:07:15 Timeout during PPP negotiation.
+30.07.19 09:07:15 Internet connection cleared.
+30.07.19 09:06:33 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 09:06:23 Timeout during PPP negotiation.
+30.07.19 09:06:23 Internet connection cleared.
+30.07.19 09:06:03 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 09:05:43 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 09:05:37 Internet connection cleared.
+30.07.19 09:05:37 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 08:58:30 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 08:58:30 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 08:58:25 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 08:58:16 Timeout during PPP negotiation.
+30.07.19 08:58:16 Internet connection cleared.
+30.07.19 08:57:53 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 08:57:34 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 08:57:29 Internet connection cleared.
+30.07.19 08:57:29 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 08:54:19 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 08:54:19 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 08:54:14 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 08:53:46 PPPoE error: Timeout. 
+30.07.19 08:53:04 Internet connection cleared.
+30.07.19 08:53:04 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 08:52:28 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 08:52:28 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 08:52:06 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 08:51:31 Timeout during PPP negotiation.
+30.07.19 08:51:31 Internet connection cleared.
+30.07.19 08:51:31 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 08:50:42 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 08:50:42 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 08:50:37 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 08:50:18 Timeout during PPP negotiation.
+30.07.19 08:50:18 Internet connection cleared.
+30.07.19 08:49:35 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 08:49:25 Timeout during PPP negotiation.
+30.07.19 08:49:25 Internet connection cleared.
+30.07.19 08:49:05 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 08:48:45 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 08:48:34 Timeout during PPP negotiation.
+30.07.19 08:48:34 Internet connection cleared.
+30.07.19 08:48:34 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 08:47:48 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 08:47:48 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 08:47:39 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 08:47:19 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 08:47:09 Timeout during PPP negotiation.
+30.07.19 08:47:09 Internet connection cleared.
+30.07.19 08:46:47 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 08:46:29 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 08:46:18 Timeout during PPP negotiation.
+30.07.19 08:46:18 Internet connection cleared.
+30.07.19 08:45:56 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
+30.07.19 08:45:36 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 08:45:26 Timeout during PPP negotiation.
+30.07.19 08:45:26 Internet connection cleared.
+30.07.19 08:45:26 IPv6 internet connection was cleared; prefix no longer valid.
+30.07.19 08:18:29 IPv6 prefix obtained successfully. New prefix: YYY
+30.07.19 08:18:29 IPv6 internet connection established successfully. IP address: YYY
+30.07.19 08:18:24 Internet connection established successfully. IP address: XXX, DNS server: XXX and XXX, gateway: XXX, broadband PoP: MX-7
+30.07.19 08:18:15 Timeout during PPP negotiation.
+30.07.19 08:18:15 Internet connection cleared.
+30.07.19 08:17:54 Could not establish IPv6 internet connection: No response from DHCPv6 server (SOL).
