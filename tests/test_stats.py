@@ -15,4 +15,6 @@ def test_x():
     assert downtime_df.shape[0] == 91
 
     expected_df = pd.read_pickle("tests/expected_df.pkl")
+    print(downtime_df)
+    print(expected_df)
     assert downtime_df.equals(expected_df)
