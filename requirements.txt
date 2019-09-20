@@ -5,6 +5,7 @@ chardet==3.0.4
 coverage==4.5.4
 cycler==0.10.0
 fritzconnection==0.7.2
+future==0.17.1
 idna==2.8
 importlib-metadata==0.23
 kiwisolver==1.1.0
