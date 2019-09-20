@@ -1,3 +1,9 @@
+from __future__ import print_function
+from __future__ import unicode_literals
+from __future__ import division
+from __future__ import absolute_import
+from future import standard_library
+standard_library.install_aliases()
 from fritz import FritzStats
 import pandas as pd
 
@@ -7,7 +13,7 @@ def test_missing_folder():
     assert fritz.get_downtime().empty
 
 
-def test_x():
+def test_dataframes():
     fritz = FritzStats("tests/test_log_files", "some_title")
     downtime_df = fritz.get_downtime()
 

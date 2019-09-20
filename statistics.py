@@ -1,3 +1,11 @@
+from __future__ import print_function
+from __future__ import unicode_literals
+from __future__ import division
+from __future__ import absolute_import
+from builtins import open
+from future import standard_library
+standard_library.install_aliases()
+from builtins import object
 import glob
 import re
 from datetime import datetime
@@ -5,7 +13,7 @@ from datetime import datetime
 import pandas as pd
 
 
-class FritzStats:
+class FritzStats(object):
     """
     Manages statistics for a FRITZ!Box router.
     """
