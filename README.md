@@ -1,4 +1,5 @@
 [![travis-ci](https://travis-ci.org/paulknewton/fritz-monitor.svg?branch=master)](https://travis-ci.org/paulknewton/fritz-monitor)
+[![codecov](https://codecov.io/gh/paulknewton/pi-cloud-frame/branch/master/graph/badge.svg)](https://codecov.io/gh/paulknewton/fritz/monitor)
 
 [![DeepSource](https://static.deepsource.io/deepsource-badge-light.svg)](https://deepsource.io/gh/paulknewton/fritz-monitor/?ref=repository-badge)
 
