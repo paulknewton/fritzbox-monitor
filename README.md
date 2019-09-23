@@ -35,11 +35,14 @@ sudo pip3 install -r requirements.txt
 ```
 
 ### Notes on installing on a Raspberry Pi
-I run this code on a Raspberry Pi. If you install everything using ```pip```as above then it will likely need to re-build some libraries from source.
+I run this code on a Raspberry Pi.
+If you install everything using ```pip```as above then it will likely need to re-build some libraries from source.
 The large scientific libraries such as sci-py, numpy and pandas will take an age (if they succeed at all). It is strongly recommended to install the large, complex python libraries first using the apt package manager and only use the ```pip``` installation for the remaining libaries.
 
+A user also notified me that numpy requires you to install the libatlas-base-dev package as well.
+
 ```
-sudo apt-get install python3-scipy python3-numpy python3-pandas
+sudo apt-get install python3-scipy python3-numpy python3-pandas libatlas-base-dev
 sudo pip3 install -r requirements.txt
 ```
 
