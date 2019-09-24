@@ -1,7 +1,7 @@
 [![travis-ci](https://travis-ci.org/paulknewton/fritzbox-monitor.svg?branch=master)](https://travis-ci.org/paulknewton/fritzbox-monitor)
 [![codecov](https://codecov.io/gh/paulknewton/fritzbox-monitor/branch/master/graph/badge.svg)](https://codecov.io/gh/paulknewton/fritzbox-monitor)
 
-[![DeepSource](https://static.deepsource.io/deepsource-badge-light.svg)](https://deepsource.io/gh/paulknewton/fritz-monitor/?ref=repository-badge)
+[![DeepSource](https://static.deepsource.io/deepsource-badge-light.svg)](https://deepsource.io/gh/paulknewton/fritzbox-monitor/?ref=repository-badge)
 
 # fritz-monitor
 Monitor the internet health of a Fritz!Box router and plot graphs of errors
