@@ -1,6 +1,7 @@
 [![travis-ci](https://travis-ci.org/paulknewton/fritzbox_monitor.svg?branch=master)](https://travis-ci.org/paulknewton/fritzbox_monitor)
 [![codecov](https://codecov.io/gh/paulknewton/fritzbox_monitor/branch/master/graph/badge.svg)](https://codecov.io/gh/paulknewton/fritzbox_monitor)
-[![pyup](https://pyup.io/repos/github/paulknewton/fritzbox_monitor/shield.svg?t=1571051366905)![python3](https://pyup.io/repos/github/paulknewton/fritzbox_monitor/python-3-shield.svg)](https://pyup.io/account/repos/github/paulknewton/fritzbox_monitor)
+[![pyup](https://pyup.io/repos/github/paulknewton/fritzbox_monitor/shield.svg?t=1571051366905)](https://pyup.io/account/repos/github/paulknewton/fritzbox_monitor)
+[![python3](https://pyup.io/repos/github/paulknewton/fritzbox_monitor/python-3-shield.svg)](https://pyup.io/account/repos/github/paulknewton/fritzbox_monitor)
 
 [![DeepSource](https://static.deepsource.io/deepsource-badge-light.svg)](https://deepsource.io/gh/paulknewton/fritzbox_monitor/?ref=repository-badge)
 
