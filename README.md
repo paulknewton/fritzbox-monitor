@@ -24,16 +24,16 @@ The tools support different command-line arguments for accessing the router (use
 
 The code is compatible with both python 2 and python 3.
 
-All library dependencies are listed in `requirements.txt`, so on many platforms you can install everything via `pip`. For example, for python 3:
+All library dependencies are listed in `requirements_dev.txt`, so on many platforms you can install everything via `pip`. For example, for python 3:
 ```
-pip3 install -r requirements.txt
+pip3 install -r requirements_dev_.txt
 ```
 
 If you are using a virtualenv, then you can run the above command as a normal user.
 If you are installing the libraries machine-wide then you will likely need to run as super-user instead:
 
 ```
-sudo pip3 install -r requirements.txt
+sudo pip3 install -r requirements_dev_.txt
 ```
 
 ### Notes on installing on a Raspberry Pi
@@ -46,7 +46,7 @@ A user also ìnformed me that ```numpy``` requires you to install the ```libatla
 
 ```
 sudo apt-get install python3-scipy python3-numpy python3-pandas libatlas-base-dev
-sudo pip3 install -r requirements.txt
+sudo pip3 install -r requirements_dev_.txt
 ```
 
 ## Usage
