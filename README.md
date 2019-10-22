@@ -6,7 +6,7 @@
 [![DeepSource](https://static.deepsource.io/deepsource-badge-light.svg)](https://deepsource.io/gh/paulknewton/fritzbox_monitor/?ref=repository-badge)
 
 # FRITZ! Monitor
-Monitor the internet health of a Fritz!Box router and plot graphs of errors
+Monitors internet health of a FRITZ!Box router and plots graphs of internet outage.
 
 ![Daily](docs/fritz7530_daily.png)
 
