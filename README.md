@@ -1,9 +1,9 @@
-[![travis-ci](https://travis-ci.org/paulknewton/fritzbox_monitor.svg?branch=master)](https://travis-ci.org/paulknewton/fritzbox_monitor)
-[![codecov](https://codecov.io/gh/paulknewton/fritzbox_monitor/branch/master/graph/badge.svg)](https://codecov.io/gh/paulknewton/fritzbox_monitor)
-[![pyup](https://pyup.io/repos/github/paulknewton/fritzbox_monitor/shield.svg?t=1571051366905)](https://pyup.io/account/repos/github/paulknewton/fritzbox_monitor)
-[![python3](https://pyup.io/repos/github/paulknewton/fritzbox_monitor/python-3-shield.svg)](https://pyup.io/account/repos/github/paulknewton/fritzbox_monitor)
+[![travis-ci](https://travis-ci.org/paulknewton/fritzbox-monitor.svg?branch=master)](https://travis-ci.org/paulknewton/fritzbox-monitor)
+[![codecov](https://codecov.io/gh/paulknewton/fritzbox-monitor/branch/master/graph/badge.svg)](https://codecov.io/gh/paulknewton/fritzbox-monitor)
+[![pyup](https://pyup.io/repos/github/paulknewton/fritzbox-monitor/shield.svg?t=1571051366905)](https://pyup.io/account/repos/github/paulknewton/fritzbox-monitor)
+[![python3](https://pyup.io/repos/github/paulknewton/fritzbox-monitor/python-3-shield.svg)](https://pyup.io/account/repos/github/paulknewton/fritzbox-monitor)
 
-[![DeepSource](https://static.deepsource.io/deepsource-badge-light.svg)](https://deepsource.io/gh/paulknewton/fritzbox_monitor/?ref=repository-badge)
+[![DeepSource](https://static.deepsource.io/deepsource-badge-light.svg)](https://deepsource.io/gh/paulknewton/fritzbox-monitor/?ref=repository-badge)
 
 # FRITZ!Box Monitor
 Monitors internet health of a FRITZ!Box router and plots graphs of internet outage.
