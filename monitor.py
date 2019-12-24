@@ -1,22 +1,24 @@
-from __future__ import unicode_literals
-from __future__ import print_function
-from __future__ import division
 from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+from __future__ import unicode_literals
+
 from builtins import super
+
 from future import standard_library
+
 standard_library.install_aliases()
 from builtins import object
-from fritzconnection import FritzConnection
 
 
-class FritzMonitor(object):
+class FritzBox(object):
     """
     Accesses system logs for a FRITZ!Box
     """
 
     def __init__(self, fc=None, address=None, port=None,
                  user=None, password=None):
-        super(FritzMonitor, self).__init__()
+        super(FritzBox, self).__init__()
         if fc is None:
             fc = fritzconnection.FritzConnection(
                 address=address,

@@ -1,21 +1,22 @@
 #!/usr/bin/env python3
 
+from __future__ import absolute_import
+from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
-from __future__ import division
-from __future__ import absolute_import
+
 from future import standard_library
+
 standard_library.install_aliases()
 import argparse
 
 import matplotlib
-from fritzconnection import FritzConnection
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from monitor import FritzMonitor
+from monitor import FritzBox
 from statistics import FritzStats
 
 # max number of bars to show on a graph (avoids overcrowding)
@@ -67,7 +68,7 @@ def main():
     print(args)
 
     if args.action == "log":
-        fritz = FritzMonitor(
+        fritz = FritzBox(
             address=args.address,
             port=args.port,
             user=args.user,
