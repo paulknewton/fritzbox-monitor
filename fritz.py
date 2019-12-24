@@ -9,7 +9,7 @@ standard_library.install_aliases()
 import argparse
 
 import matplotlib
-from fritzconnection import fritzconnection
+from fritzconnection import FritzConnection
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt

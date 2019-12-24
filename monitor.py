@@ -6,7 +6,7 @@ from builtins import super
 from future import standard_library
 standard_library.install_aliases()
 from builtins import object
-from fritzconnection import fritzconnection
+from fritzconnection import FritzConnection
 
 
 class FritzMonitor(object):
