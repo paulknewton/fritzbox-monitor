@@ -4,10 +4,10 @@
 #
 
 build_graph() {  # plotFunction title log_dir prefix
-    echo Building graphs for: $2
+    echo "Building graphs for: $2"
 
     # generate the graphs
-    python3 $1 stats --title "$2" --logdir "$3" --prefix "$4" --output docs
+    python3 "$1" stats --title "$2" --logdir "$3" --prefix "$4" --output docs
 
     # commit to git
     git add docs/*

@@ -11,6 +11,9 @@ standard_library.install_aliases()
 from builtins import object
 
 
+import fritzconnection
+
+
 class FritzBox(object):
     """
     Accesses system logs for a FRITZ!Box

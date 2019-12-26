@@ -18,6 +18,7 @@ import seaborn as sns
 
 from monitor import FritzBox
 from statistics import FritzStats
+import fritzconnection
 
 # max number of bars to show on a graph (avoids overcrowding)
 max_graph_size = 50
