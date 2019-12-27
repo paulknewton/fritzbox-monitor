@@ -18,7 +18,6 @@ import seaborn as sns
 
 from monitor import FritzBox
 from statistics import FritzStats
-import fritzconnection
 
 # max number of bars to show on a graph (avoids overcrowding)
 max_graph_size = 50
@@ -32,8 +31,7 @@ def _get_cli_arguments():
     parser.add_argument('-i', '--ip-address',
                         nargs='?', default=None, const=None,
                         dest='address',
-                        help='ip-address of the FritzBox to connect to. '
-                             'Default: %s' % fritzconnection.FRITZ_IP_ADDRESS)
+                        help='ip-address of the FritzBox to connect to')
     parser.add_argument('-u', '--user',
                         nargs='?', default=None, const=None,
                         help='Fritzbox authentication username')
@@ -43,8 +41,7 @@ def _get_cli_arguments():
     parser.add_argument('--port',
                         nargs='?', default=None, const=None,
                         dest='port',
-                        help='port of the FritzBox to connect to. '
-                             'Default: %s' % fritzconnection.FRITZ_TCP_PORT)
+                        help='port of the FritzBox to connect to')
 
     # used by action: stats
     parser.add_argument("--logdir", default="logs", help="folder where logs are stored")
