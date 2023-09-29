@@ -3,4 +3,4 @@ fritzconnection>=0.8.4
 future==0.18.2
 matplotlib>=2.2.4
 pandas==1.3.2
-seaborn==0.11.2
+seaborn==0.13.0
